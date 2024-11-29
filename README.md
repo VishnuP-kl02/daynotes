@@ -25,23 +25,12 @@ Binary - 1 bit
 
 
 
-
-
-
-
-
-
-
-
-
 Unordered Lists: Use asterisks (*), plus signs (+), or hyphens (-) followed by a space.
 
 Ordered Lists: Use numbers followed by a period.
 1. First item
 2. Second item
    1. Subitem 1
-
-
 
 
 
@@ -276,9 +265,6 @@ P-value	Helps determine the significance of a test result.	Based on test type (t
 T-test	Compares means of small samples (when population std dev is unknown).	Data is normally distributed.	Small (<30)	Mean comparison between groups
 Z-test	Compares sample data to population data (when std dev is known).	Data is normal or n ≥ 30.	Large (≥30)	Population mean comparison
 F-distribution	Compares variances or tests for differences between multiple group means.	Data is normal.	Any	Variance comparison, ANOVA
-
-
-
 
 
 Day 7
@@ -536,4 +522,69 @@ File Path operations - Join path, Split path, File extension
 
 https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html - conda envireonment
 
+
+Day 16
+
+Absolute path and Relative path
+
+Relative path is recommended.
+File Path operations - Join path, Split path, File extension
+
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html - conda envireonment
  
+
+Day 17
+
+Visualization 
+1.Matpolib
+2.Figures
+3.Axis-labels
+4.Sub-figures
+5.Ticks
+
+Types of Plots
+1)Line Plot
+2)Bar chart
+3)Pie chart
+4)Histogram
+5)Cdf plot
+6)Kde plot
+7)Scalar plot
+8)Heatmaps
+9)Box plots
+10)Scatter plot - with colour
+
+
+Feature Engineering
+
+1.Feature Orthogonality
+a)Cosine Similarity
+2.Feature Colinerity
+3.Feature Slicing
+4.Indicator Variable
+5.Feature Binning
+6.Mathematical transforms	
+a)Logarithms
+b)FFT & STFT
+Day 18
+
+Tableau / Power BI - Business intelligence tool
+
+Explorative analysis, Descriptive analysis
+
+Tableau is a data visualization and business intelligence tool that enables users to connect, visualize and share data in a highly interactive and intuitive way. It allows users to quickly analyze and explore large and complex datasets using a drag-and-drop interface without requiring coding or programming skills. Tableau provides a wide range of chart types and visualization options, such as line charts, bar charts, maps, scatter plots, and many more.
+
+Tableau can connect to various data sources, including databases, spreadsheets, big data platforms, and cloud services. It also allows users to perform data cleaning and transformation tasks, create custom calculations, and generate insights using advanced analytics features.
+
+
+Features of Tableau
+Tableau is a powerful data visualization and business intelligence tool that offers a wide range of features to help users analyze, visualize, and share data. Some of the critical features of Tableau include the following:
+
+Data Visualization: Tableau offers a variety of chart types, including bar charts, line charts, scatter plots, maps, and many more. It also provides interactive dashboards and visualizations that allow users to explore data and gain insights quickly.
+Data Exploration: Tableau allows users to explore data in depth by drilling into data points, filtering data, and creating hierarchies.
+Data Modeling: Tableau enables users to create and manage relationships between different data sources, define calculations, and create measures and KPIs.
+Data Preparation: Tableau includes a suite of data preparation tools that allow users to reshape and clean data for analysis.
+Collaboration: Tableau allows users to share and collaborate on reports and dashboards with colleagues and integrate with other tools like Slack, Salesforce, and Google Drive.
+Mobile Access: Tableau provides a mobile app that allows users to access reports and dashboards from their mobile devices.
+Natural Language Processing: Tableau includes natural language processing capabilities that allow users to ask questions in natural language and receive answers in the form of visualizations.
+Real-time data: Tableau can connect to real-time data sources like Amazon Kinesis, Apache Kafka, and Tableau Server extracts and display real-time data in visualizations.
