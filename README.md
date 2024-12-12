@@ -588,3 +588,93 @@ Collaboration: Tableau allows users to share and collaborate on reports and dash
 Mobile Access: Tableau provides a mobile app that allows users to access reports and dashboards from their mobile devices.
 Natural Language Processing: Tableau includes natural language processing capabilities that allow users to ask questions in natural language and receive answers in the form of visualizations.
 Real-time data: Tableau can connect to real-time data sources like Amazon Kinesis, Apache Kafka, and Tableau Server extracts and display real-time data in visualizations.
+
+
+Day 19 - Data Preprocessing
+
+Encoding :- Process of converting data 
+1.Binary
+2.Ordinal
+3.Nominal
+Label encoding refers of converting labels into numeric form so as to covert to machine readable form
+
+Feature Scaling :- Technique to standardize the independent features present in data in a fixed range.
+a)Performed during the data pre-processing
+b)Min max scalar & Standard scalar
+c)If feature scalar is not done then a machine learning algorithm tends to weigh greater values.
+
+Frequency Encoding :-
+Here category in categorical variable is replaced with frequency or count of category in data.
+
+ Where to apply :-
+i.High-cardinality categorical features
+ii.Unsupervised learning tasks
+iii.Features where freq of category carries imp information.
+
+Use cases :-
+iv.Reducing Dimensionality
+v.Implication of frequency of occurance
+
+Standard scaling :- rescales feature value so that distribution with mean value and variance equals to 1.
+It follows Standard Normal Distribution
+
+Xnew = Xi -Xmean/SD
+
+Min-max scaling :- rescales feature value so that distribution between 0 to 1.
+
+Xnew = Xi -min(x)/max(x)-min(x)
+
+
+
+
+
+
+
+
+
+
+Steps Involved in Data Preprocessing
+
+1. Data Cleaning:  The data can have many irrelevant and missing parts. To handle this part, data cleaning is done. It involves handling of missing data, noisy data etc. 
+
+Missing Data: This situation arises when some data is missing in the data. It can be handled in various ways. 
+Some of them are: 
+Ignore the tuples: This approach is suitable only when the dataset we have is quite large and multiple values are missing within a tuple. 
+Fill the Missing values: There are various ways to do this task. You can choose to fill the missing values manually, by attribute mean or the most probable value. 
+ 
+Noisy Data: Noisy data is a meaningless data that can’t be interpreted by machines.It can be generated due to faulty data collection, data entry errors etc. It can be handled in following ways : 
+
+Binning Method: This method works on sorted data in order to smooth it. The whole data is divided into segments of equal size and then various methods are performed to complete the task. Each segmented is handled separately. One can replace all data in a segment by its mean or boundary values can be used to complete the task. 
+Regression:Here data can be made smooth by fitting it to a regression function.The regression used may be linear (having one independent variable) or multiple (having multiple independent variables). 
+
+Clustering: This approach groups the similar data in a cluster. The outliers may be undetected or it will fall outside the clusters. 
+
+2. Data Transformation: This step is taken in order to transform the data in appropriate forms suitable for mining process. This involves following ways: 
+
+Normalization: It is done in order to scale the data values in a specified range (-1.0 to 1.0 or 0.0 to 1.0) 
+
+Attribute Selection: In this strategy, new attributes are constructed from the given set of attributes to help the mining process. 
+
+Discretization: This is done to replace the raw values of numeric attribute by interval levels or conceptual levels. 
+
+Concept Hierarchy Generation: Here attributes are converted from lower level to higher level in hierarchy. For Example-The attribute “city” can be converted to “country”. 
+
+3. Data Reduction: Data reduction is a crucial step in the data mining process that involves reducing the size of the dataset while preserving the important information. This is done to improve the efficiency of data analysis and to avoid overfitting of the model. Some common steps involved in data reduction are:
+
+Feature Selection: This involves selecting a subset of relevant features from the dataset. Feature selection is often performed to remove irrelevant or redundant features from the dataset. It can be done using various techniques such as correlation analysis, mutual information, and principal component analysis (PCA).
+
+Feature Extraction: This involves transforming the data into a lower-dimensional space while preserving the important information. Feature extraction is often used when the original features are high-dimensional and complex. It can be done using techniques such as PCA, linear discriminant analysis (LDA), and non-negative matrix factorization (NMF).
+
+Sampling: This involves selecting a subset of data points from the dataset. Sampling is often used to reduce the size of the dataset while preserving the important information. It can be done using techniques such as random sampling, stratified sampling, and systematic sampling.
+
+Clustering: This involves grouping similar data points together into clusters. Clustering is often used to reduce the size of the dataset by replacing similar data points with a representative centroid. It can be done using techniques such as k-means, hierarchical clustering, and density-based clustering.
+
+Compression: This involves compressing the dataset while preserving the important information. Compression is often used to reduce the size of the dataset for storage and transmission purposes. It can be done using techniques such as wavelet compression, JPEG compression, and gif compression.
+
+
+
+Day 20  -  Linear Regression implementation
+Linear Regression stands as one of the simplest supervised machine learning algorithms, aiming to approximate the likelihood of a dependent variable converging based on one or multiple independent variables or features, through a linear equation. This equation is typically represented as:
+y = mx + b
+
+https://hasan-shahriar.medium.com/linear-regression-implementation-in-python-from-scratch-ced6ba267460
